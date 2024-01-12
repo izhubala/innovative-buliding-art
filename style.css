@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture1.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box{
+    color:  #e56b1f;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 380px;
+    left: 1170px;
+    font-size: 5px;
+}
+.box1{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    text-align: right;
+    top: 430px;
+    left: 750px;
+    letter-spacing: 4px;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .section{
+        width: 769px;
+        height: 750px;
+        background-position-x: -150px;
+        background-position-y: -50px;
+    }
+    .box{
+        top: 280px;
+        left: 570px;
+       font-size: 42px;
+}
+    .box1{
+        top: 560px;
+        left: 270px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .section{
+        width: 991px;
+        height: 750px;
+    }
+    .box{
+        top: 100px;
+        left: 380px;
+        font-size: 54px; 
+        padding: 10px;  
+}
+    .box1{
+        top: 490px;
+        left: 200px;
+        padding: 10px;  
+    }
+} 
+.section1{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture2.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box2{
+    width: 300px;
+    height: 140px;
+    color: #32064a;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    font-size: 5rem;
+   
+}
+.button1{
+    position: absolute;
+    top: 230px;
+    left: 240px;
+}
+button{
+    padding: 20px;
+    background-color: #e56b1f;
+    color: #ffffff;
+    border: none;
+}
+@media screen and (max-width: 991px) {
+    .section1{
+        width: 991px;
+        height: 750px;  
+}
+}
+@media screen and (max-width: 768px) {
+    .section1{
+        width: 769px;
+        height: 750px;
+}
+}
+.section2{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture3.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box3{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 780px;
+    top: 100px;
+}
+.box4{
+    width: 390px;
+    height: 180px;
+    color: black;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 760px;
+    top: 410px;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+    .section2{
+        width: 769px;
+        height: 750px;
+        background-position-x: -300px;
+}
+
+}
+@media screen and (max-width: 991px) {
+    .section2{
+        width: 991px;
+        height: 750px;  
+}
+    .box3{
+        left: 690px;
+}
+    .box4{
+        left: 600px;
+    }
+}
+.section3{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture4.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box5{
+    width: 100px;
+    height: 140px;
+    color: #32064a;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    font-size: 4rem;
+}
+.box6{
+    width: 560px;
+    height: 100px;
+    color: #32064a;
+    position: absolute;
+    left: 160px;
+    top: 550px;
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+.button2{
+    position: absolute;
+    top: 650px;
+    left: 160px;
+}
+@media screen and (max-width: 768px) {
+    .section3{
+        width: 769px;
+        height: 750px;
+        background-position-x: -290px;
+}
+    .box5{
+        left: 100px;
+    }
+    .box6{
+        width: 360px;
+        left: 100px;
+    }
+}
+ @media screen and (max-width: 991px) {
+    .section3{
+        width: 991px;
+        height: 750px;  
+        background-position-x: -100px;
+}
+     .box5{
+        left: 90px;
+}
+    .box6{
+        left: 90px;
+        width: 360px;
+    } 
+} 
+.section4{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture5.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box7{
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    left: 380px;
+    top: 250px;
+}
+.button3{
+    position: absolute;
+    left: 570px;
+    top: 560px;
+}
+@media screen and (max-width: 768px) {
+    .section4{
+        width: 769px;
+        height: 750px;
+        background-position-x: -120px;
+}
+    .box7{
+        left: 60px;
+    }
+    .button3{
+        left: 230px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .section4{
+        width: 991px;
+        height: 750px;  
+        background-position-x: -80px;
+}
+    .box7{
+        left: 280px;
+}
+    .button3{
+        left: 480px;
+    
+    } 
+} 
+.section5{
+    width: 1340px;
+    height: 800px;
+    background-image: url(picture6.jpg);
+    background-position: 10% 40%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.box8{
+    color: #32064a;
+    font-size: 3rem;
+    position: absolute;
+    left: 980px;
+    top: 80px;
+
+}
+.box9{
+    color: #32064a;
+    position: absolute;
+    left: 970px;
+    top: 350px;
+    text-align: right;
+    letter-spacing: 4px;
+}
+.fa{
+     padding: 10px;
+    color: #32064a; 
+    
+}
+.box10{
+    position: absolute;
+    left: 960px;
+    top: 430px; 
+}
+@media screen and (max-width: 768px) {
+    .section5{
+        width: 769px;
+        height: 750px;
+        background-position-x: -250px;
+}
+    .box8{
+        left: 360px;
+    }
+    .box9{
+        left: 360px;
+    }
+    .box10{
+        left: 360px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .section5{
+        width: 991px;
+        height: 750px;  
+        background-position-x: -130px;
+}
+.box8{
+    left: 550px;
+}
+     .box9{
+        left: 550px;
+}
+    .box10{
+        left: 550px;
+    
+    } 
+} 
